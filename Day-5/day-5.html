@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day-5: CSS Specificity & Cascade</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="yellow red green" id="blue">Which color do i get?</h1>
+    </div>
+    <!-- basically, the css implementation works on a order of Specificity.
+    i.e. inline css > id > class (on basis of which is below .lets say last written) > Element tag >  -->
+
+    <hr>
+
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusamus optio totam illo odit alias
+        obcaecati numquam reiciendis at voluptatum quae voluptatem aspernatur maiores aliquid voluptas nam ipsum est et
+        magnam, voluptates recusandae iusto, fugit corrupti maxime. Repellendus eligendi exercitationem voluptatem
+        molestiae illo perferendis, unde labore iusto dolor in aspernatur vitae quis nihil provident esse dolores ullam.
+        Nisi et enim eveniet reiciendis ea dolorem repellat aperiam facere, necessitatibus laborum nobis molestias ipsa
+        nesciunt modi dolor unde fuga soluta labore quas nulla! Quisquam pariatur mollitia maxime. Laudantium deleniti
+        illum, est quia repellat veritatis reiciendis sint ipsa ad magnam. Consequatur suscipit optio, iure quia eveniet
+        praesentium fugit repellat magnam minus nostrum eius officia molestias assumenda cumque doloremque quas nemo aut
+        est! Eum nemo at dicta sed vel?
+
+        <div class="box-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quia.
+
+            <div class="box-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, odit.
+            </div>
+        </div>
+    </div>
+
+    <p class="block">This is a box</p>
+
+    <hr>
+    <div class="fsize">
+        This is a div
+        <div class="rem">
+            This is div
+        </div>
+    </div>
+    <hr>
+    <p class="para">This is a para</p>
+    <hr>
+    <p class="out">This is for outline learn</p>
+</body>
+
+</html>

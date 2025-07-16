@@ -1,0 +1,59 @@
+nav ul li {
+    display: inline-flex;
+    list-style: none;
+    background-color: red;
+    list-style-position: inside;
+    padding: 23px;
+}
+
+.scroll {
+    width: 30vw;
+    height: 10vh;
+    overflow: auto;
+    border: 2px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 60vw;
+    height: 90vh;
+    margin: 33px;
+    padding: 3px;
+    border: 2px solid black;
+}
+
+.box1 {
+    background-color: red;
+    /* top: 10px;
+    position: absolute; */
+    position: sticky;
+    top: 0px;
+    height: 5vh;
+}
+
+.box2 {
+    background-color: aqua;
+    /* position: fixed;
+    bottom: 0px;
+    left: 532px; */
+}
+
+.box3 {
+    background-color: yellow;
+    /* position: sticky;
+    top: 0px; */
+}
+
+.box4 {
+    background-color: rgb(93, 0, 255);
+}
+
+.parent {
+    width: 90vw;
+    padding: 2px;
+    border: 3px solid black;
+}

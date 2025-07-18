@@ -1,0 +1,1 @@
+Day-7 : We learnt about the Making base for a card display,focus on Css varaibles and media queires.
